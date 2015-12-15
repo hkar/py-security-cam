@@ -66,7 +66,7 @@ def bw_average(image_matrix):
 
 # parsing 'ini' config to dictionary
 config = configparser.RawConfigParser()
-config.read("lconf.ini")
+config.read("conf.ini")
 conf = {}
 
 for section in config.sections():
